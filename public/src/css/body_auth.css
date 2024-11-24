@@ -1,0 +1,207 @@
+.account-logo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.lg-auth{
+    object-fit: cover;
+    width: 50%;
+}
+
+
+.alert-valid{
+  padding-top: 5px;
+  display: block;
+  width: 304px;
+  height: 20px;
+}
+
+.mg-b-5{
+  margin-bottom: 5px !important;
+}
+
+/*-----------------
+  4. Login
+-----------------------*/
+
+.account-content {
+    background-color: #fafafa;
+    min-height: 428px;
+  }
+  .account-box {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    padding: 20px ;
+    margin: 30px 0;
+    width: 400px;
+  }
+  .account-box .form-control {
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    box-shadow: inherit;
+    font-size: 14px;
+    height: 40px;
+  }
+  .account-box textarea.form-control {
+    height: 130px;
+  }
+  .account-box label {
+    color: #323232;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .account-box .form-group {
+    margin-bottom: 20px;
+  }
+  .account-box .account-btn {
+    border-radius: 50px;
+    font-size: 16px;
+    min-width: 150px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+  }
+  .account-box a {
+    color: #333;
+    font-size: 14px;
+  }
+  .account-box a:hover {
+    color: #009efb;
+  }
+  .forgot-link {
+    margin-bottom: 20px;
+  }
+  .account-title h3 {
+    color: #282628;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .account-wrapper {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .account-page {
+    /* display: table-row; */
+    height: 100%;
+    display: flex;
+    /* margin: 20px 0; */
+    justify-content: center;
+  }
+  .account-center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .sliding-menu {
+    position: relative;
+    overflow: hidden;
+  }
+  .sliding-menu-panel {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+  }
+  .sliding-menu .sliding-menu-nav:before {
+    float: right;
+    margin-left: 1em;
+    font-family: FontAwesome;
+    font-size: 19px;
+    content: "\f105";
+  }
+  .sliding-menu .sliding-menu-back {
+    background-color: #ccc;
+    color: #fff;
+  }
+  .sliding-menu .sliding-menu-back:before {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+    content: "\f104";
+  }
+  .custom-table tr {
+    background-color: #fff;
+    box-shadow: 0 0 3px #e5e5e5;
+  }
+  .table.custom-table>tbody>tr>td,
+  .table.custom-table>tbody>tr>th,
+  .table.custom-table>tfoot>tr>td,
+  .table.custom-table>tfoot>tr>th,
+  .table.custom-table>thead>tr>td,
+  .table.custom-table>thead>tr>th {
+    padding: 10px 8px;
+    vertical-align: middle;
+  }
+  .card .card-header {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0 none;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px;
+  }
+  .card .card-header .card-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    padding: 5px 0;
+  }
+  .table h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .table h5+p {
+    color: #9e9e9e;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+  .top-nav-search {
+    float: left;
+    margin-top: 7px;
+  }
+  .top-nav-search .input-group {
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 20px;
+  }
+  .top-nav-search .input-group .form-control {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+    min-height: inherit;
+    padding: 5px 15px;
+  }
+  .top-nav-search .input-group-text {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0 20px 20px 0;
+    color: rgba(255, 255, 255, 0.45);
+    padding: 5px 15px;
+  }
+  @font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  }
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  .glyphicon-chevron-up:before {
+    content: "\e113";
+  }
+  .glyphicon-chevron-down:before {
+    content: "\e114";
+  }

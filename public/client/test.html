@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Đảm bảo nền trang web có màu sắc chính xác */
+        body {
+            /* background-color: #f0f0f0; */
+            /* Màu nền khi loading */
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            /* Ẩn cuộn nếu cần */
+            text-align: center;
+            height: 100vh;
+            position: relative;
+            /* Căn giữa nội dung */
+        }
+
+        /* Định dạng loader để nó ở giữa màn hình */
+        .loader {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            line-height: 100%;
+            display: block;
+            margin: 15px auto;
+            position: absolute;
+            color: #FD0103;
+            box-sizing: border-box;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: animloader 2s linear infinite;
+        }
+
+        @keyframes animloader {
+            0% {
+                box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 -2px;
+            }
+
+            25% {
+                box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 2px;
+            }
+
+            50% {
+                box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 2px, -38px 0 0 -2px;
+            }
+
+            75% {
+                box-shadow: 14px 0 0 2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 -2px;
+            }
+
+            100% {
+                box-shadow: 14px 0 0 -2px, 38px 0 0 2px, -14px 0 0 -2px, -38px 0 0 -2px;
+            }
+        }
+
+        /* Khi trang đã tải xong, ẩn loader */
+        .hidden {
+            display: none;
+        }
+
+        /* Đảm bảo nội dung trang được hiển thị khi loader bị ẩn */
+        .content {
+            display: block;
+            opacity: 0;
+            transition: opacity 1s linear;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Phần tử loader -->
+    <span class="loader"></span>
+
+    <!-- Nội dung trang -->
+    <div class="content" style="opacity: 0;">
+        <!-- Các phần tử khác của trang -->
+        <h1>Welcome to the Website</h1>
+        <p>This is your main content.</p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            // Tìm phần tử loader và thêm lớp hidden để ẩn nó
+            const loader = document.querySelector('.loader');
+            if (loader) {
+                loader.classList.add('hidden');
+            }
+
+            // Hiển thị nội dung trang sau khi loader bị ẩn
+            const content = document.querySelector('.content');
+            if (content) {
+                content.style.opacity = '1';
+            }
+        }, 2000); // Thời gian chờ 2 giây
+    </script>
+
+</body>
+
+</html>

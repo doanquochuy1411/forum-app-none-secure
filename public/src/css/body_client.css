@@ -1,0 +1,19 @@
+.btn-follow{
+    margin-left: 2px;
+}
+
+.btn-follow:focus,
+.btn-follow:active,
+.btn-follow:focus-visible {
+    outline: none;
+    border: none;
+}
+
+
+.i-plus{
+    padding-right: 2px;
+}
+
+.img-side{
+    width: 100%;
+}

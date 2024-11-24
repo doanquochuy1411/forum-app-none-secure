@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination a:hover {
+    cursor: pointer;
+}
+
+.page-link.active {
+    background-color: #0056b3; /* Màu cho nút đang chọn */
+    color: white;
+}
+
+.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+    margin: 0 5px;
+}
+
+.data-row {
+    opacity: 0; /* Bắt đầu với độ trong suốt bằng 0 */
+    transform: translateY(20px); /* Di chuyển xuống một chút */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Hiệu ứng chuyển tiếp */
+}
+
+.data-row.show {
+    opacity: 1; /* Đặt độ trong suốt thành 1 khi hiển thị */
+    transform: translateY(0); /* Đưa nó trở lại vị trí ban đầu */
+}
+
+.pd-t-20 {
+    padding-top: 20px;
+}

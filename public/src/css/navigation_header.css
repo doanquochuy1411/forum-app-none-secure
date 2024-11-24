@@ -1,0 +1,94 @@
+/* Navigation header */
+/* Phần header của chi tiết bài viết */
+.header-descriptin329 {
+    background-color: #f5f5f5;
+    /* Nền xám nhạt */
+    padding: 20px 0;
+    /* Khoảng cách trên dưới */
+    /* border-bottom: 1px solid #ddd; */
+    /* Viền phân cách với phần dưới */
+}
+
+/* Container giúp giữ nội dung trong giới hạn chiều rộng trang */
+.header-descriptin329 .container {
+    max-width: 1200px;
+    /* Giới hạn độ rộng container */
+    margin: 0 auto;
+    /* Căn giữa container */
+    padding: 0 15px;
+    /* Khoảng cách hai bên cho container */
+}
+
+/* Phong cách cho tiêu đề chi tiết bài viết */
+.header-descriptin329 h3 {
+    font-size: 28px;
+    /* Kích thước chữ lớn cho tiêu đề */
+    font-weight: bold;
+    /* Chữ đậm */
+    color: #333;
+    /* Màu chữ đậm */
+    margin: 0 0 10px;
+    /* Khoảng cách dưới tiêu đề */
+}
+
+/* Phong cách cho breadcrumb */
+.breadcrumb840 {
+    padding: 10px 15px;
+    /* Khoảng cách bên trong breadcrumb */
+    background-color: #fff;
+    /* Nền trắng */
+    border-radius: 4px;
+    /* Bo góc breadcrumb */
+    list-style: none;
+    /* Loại bỏ gạch đầu dòng */
+    display: flex;
+    /* Hiển thị flex để xếp các mục theo chiều ngang */
+    gap: 5px;
+    /* Khoảng cách giữa các mục */
+    margin: 0;
+    /* Loại bỏ khoảng cách mặc định */
+}
+
+/* Các mục breadcrumb */
+.breadcrumb840 li {
+    display: inline-block;
+    /* Hiển thị các mục trong một dòng */
+    font-size: 14px;
+    /* Kích thước chữ nhỏ hơn */
+    color: #666;
+    /* Màu chữ nhẹ nhàng */
+}
+
+/* Link trong breadcrumb */
+.breadcrumb840 li a {
+    color: #337ab7;
+    /* Màu xanh đặc trưng cho link */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+    transition: color 0.3s ease;
+    /* Hiệu ứng đổi màu khi hover */
+}
+
+.breadcrumb840 li a:hover {
+    color: #23527c;
+    /* Đổi màu khi hover */
+}
+
+/* Mục breadcrumb hiện tại */
+.breadcrumb840 li.active {
+    color: #555;
+    /* Màu đậm hơn cho mục hiện tại */
+    font-weight: bold;
+    /* Chữ đậm */
+    pointer-events: none;
+    /* Không thể nhấn vào mục hiện tại */
+}
+
+.mg-top-70 {
+    margin-top: -70px;
+}
+
+.z-index-2{
+    position: relative;
+    z-index: 2;
+}

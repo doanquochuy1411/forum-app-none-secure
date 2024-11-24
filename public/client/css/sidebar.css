@@ -1,0 +1,35 @@
+.sidebar97240 { /* for post detail */
+    border-radius: 4px;
+    /* height: 165vh; Full viewport height */
+    overflow: hidden;
+}
+
+.sidebar97239 {
+    /* padding: 15px; */
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 215vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.scrollable-sidebar {
+    max-height: 100%; /* Allow scrolling if content overflows */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.scrollable-sidebar h4 {
+    background: #f4f4f4;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.scrollable-sidebar .post-details021,
+.scrollable-sidebar .pints-wrapper {
+    padding: 5px;
+}
+
+.scrollable-sidebar hr {
+    margin: 5px 0;
+}

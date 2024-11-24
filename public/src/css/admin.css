@@ -1,0 +1,52 @@
+.search-box {
+    position: relative;
+    width: 100%;
+}
+
+.search-box input {
+    width: 100%;
+    padding-right: 40px; /* Tạo khoảng trống cho icon bên phải */
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+}
+
+.search-box input:focus + .search-icon {
+    color: #007bff; /* Đổi màu icon khi input đang focus */
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dash-widget-bg1, .dash-widget-bg2, .dash-widget-bg3, .dash-widget-bg4{
+    line-height: 28px;
+    width: 35px;
+    height: 35px;
+}
+
+.dash-widget-info p {
+    font-size: 14px;
+}
+
+.pd-l-0{
+    padding-left: 0;
+}
+
+#pagination .dots {
+        display: inline-block;
+        padding: 10px 15px;
+        color: #999;
+        cursor: default;
+}

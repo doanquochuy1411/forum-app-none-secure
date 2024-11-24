@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SweetAlert2 Test</title>
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+
+    <!-- Nội dung trang của bạn -->
+    <h1>SweetAlert2 Test Page</h1>
+    <p>Chờ một thông báo SweetAlert2 xuất hiện khi trang được tải.</p>
+
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+        // document.addEventListener('DOMContentLoaded', function () {
+        Swal.fire({
+            icon: 'success',
+            title: 'SweetAlert2 is working!',
+            text: 'This is a test message.',
+            timer: 3000,
+            timerProgressBar: true
+        });
+        // });
+    </script>
+
+</body>
+
+</html>

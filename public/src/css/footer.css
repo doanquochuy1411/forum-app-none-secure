@@ -1,0 +1,27 @@
+.info-part-one320{
+    border-radius: 30px;
+    /* background-color: #ffffff; */
+    color: #fff;
+    text-align: center;
+}
+
+.info-part-four320{
+    color: #fff;;
+}
+
+.bg-w{
+    background-color: #fff;
+}
+
+.img-footer {
+    object-fit: cover;
+    width: 40%;
+}
+
+.footer-part{
+    font-family: fontawesome;
+}
+
+.pd-10{
+    padding: 10px;
+}

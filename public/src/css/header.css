@@ -1,0 +1,29 @@
+.fixed-header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.pd-t-90{
+    padding-top: 90px;
+}
+
+.pd-t-120{
+    padding-top: 120px;
+}
+
+.mg-0{
+    margin: 0px;
+}
+
+.navbar-brand{
+    display: inline-flex;
+}
+
+.navbar-brand > img {
+    position: relative;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    width: 100%;
+    height: 300%;
+}

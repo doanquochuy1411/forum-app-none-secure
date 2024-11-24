@@ -1,0 +1,26 @@
+    .news-info209 {
+        margin-bottom: 20px;
+    }
+
+    .news-info209 h5 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .news-info209 p {
+        display: -webkit-box;       /* Sử dụng Flexbox để tạo cấu trúc */
+        -webkit-line-clamp: 2;      /* Giới hạn hiển thị nội dung trong 2 dòng */
+        -webkit-box-orient: vertical; /* Định hướng hộp theo chiều dọc */
+        overflow: hidden;           /* Ẩn phần nội dung tràn */
+        text-overflow: ellipsis;    /* Thêm dấu "..." ở cuối */
+        max-width: 100%;            /* Đặt chiều rộng tối đa */
+    }
+
+    /* .news-info209 p {
+         white-space: nowrap;       Hiển thị nội dung trong một dòng
+        overflow: hidden;          Ẩn phần nội dung tràn
+        text-overflow: ellipsis;   Thêm dấu "..." ở cuối
+        width: 100%;               Đặt chiều rộng tối đa
+    } */
+
+

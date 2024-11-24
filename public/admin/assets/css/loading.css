@@ -1,0 +1,58 @@
+/* Loading */
+/* Đảm bảo nền trang web có màu sắc chính xác */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Định dạng loader để nó ở giữa màn hình */
+.loader {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  line-height: 100%;
+  display: block;
+  margin: 15px auto;
+  position: fixed;
+  color: #FD0103;
+  box-sizing: border-box;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: animloader 2s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+      box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 -2px;
+  }
+
+  25% {
+      box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 2px;
+  }
+
+  50% {
+      box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 2px, -38px 0 0 -2px;
+  }
+
+  75% {
+      box-shadow: 14px 0 0 2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 -2px;
+  }
+
+  100% {
+      box-shadow: 14px 0 0 -2px, 38px 0 0 2px, -14px 0 0 -2px, -38px 0 0 -2px;
+  }
+}
+
+/* Khi trang đã tải xong, ẩn loader */
+.hidden {
+  display: none;
+}
+
+/* Đảm bảo nội dung trang được hiển thị khi loader bị ẩn */
+.hidden-content {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
